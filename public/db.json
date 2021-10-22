@@ -1,0 +1,103 @@
+{
+  "phones": [
+    {
+      "id": 0,
+      "imageUrl": "https://hotline.ua/img/tx/298/2989121835.jpg",
+      "name": "Apple iPhone 13 Pro",
+      "types": [0, 1],
+      "sizes": [64, 128, 512],
+      "price": 803,
+      "category": 0,
+      "rating": 4,
+      "stock": true
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://hotline.ua/img/tx/240/2403811005.jpg",
+      "name": "HUAWEI P smart 2021",
+      "types": [0],
+      "sizes": [64,512],
+      "price": 245,
+      "category": 1,
+      "rating": 6,
+      "stock": true
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://hotline.ua/img/tx/299/2990869255.jpg",
+      "name": "Apple iPhone 12 Pro",
+      "types": [0],
+      "sizes": [64, 512],
+      "price": 295,
+      "category": 0,
+      "rating": 4,
+      "stock": true
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://hotline.ua/img/tx/299/2990867125.jpg",
+      "name": "Apple iPhone 12 64GB",
+      "types": [1],
+      "sizes": [64, 128, 512],
+      "price": 275,
+      "category": 0,
+      "rating": 2,
+      "stock": false
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://hotline.ua/img/tx/240/2405235335.jpg",
+      "name": "Xiaomi Mi 10T 6/128GB",
+      "types": [0, 1],
+      "sizes": [64, 128],
+      "price": 415,
+      "category": 2,
+      "rating": 8,
+      "stock": true
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://hotline.ua/img/tx/299/2990867335.jpg",
+      "name": "Apple iPhone 12 128GB",
+      "types": [0],
+      "sizes": [128, 512],
+      "price": 580,
+      "category": 0,
+      "rating": 2,
+      "stock": true
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://hotline.ua/img/tx/273/2731134315.jpg",
+      "name": "Xiaomi Poco X3 Pro 6/128GB",
+      "types": [0, 1],
+      "sizes": [64, 128, 512],
+      "price": 675,
+      "category": 2,
+      "rating": 9,
+      "stock": false
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://hotline.ua/img/tx/238/2385715295.jpg",
+      "name": "Apple iPhone 11 128GB",
+      "types": [0, 1],
+      "sizes": [64, 128, 512],
+      "price": 450,
+      "category": 0,
+      "rating": 10,
+      "stock": true
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://hotline.ua/img/tx/273/2731133385.jpg",
+      "name": "Xiaomi X2",
+      "types": [0, 1],
+      "sizes": [64, 128, 512],
+      "price": 395,
+      "category": 2,
+      "rating": 10,
+      "stock": true
+    }
+  ]
+}
