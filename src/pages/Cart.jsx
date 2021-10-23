@@ -21,7 +21,7 @@ const Cart = () => {
     }
 
     const onRemoveItem = (id) => {
-        if (window.confirm('Вы действительно хотите очистить корзину?')) {
+        if (window.confirm('Вы действительно хотите удалить выбранный телефон?')) {
             dispatch(removeCartItem(id))
         }
     }
