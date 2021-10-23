@@ -15,13 +15,15 @@ const Cart = () => {
     })
 
     const onClearCart = () => {
-        if(window.confirm('Вы действительно хотите очистить корзину?')) {
+        if (window.confirm('Вы действительно хотите очистить корзину?')) {
             dispatch(clearCart());
         }
     }
 
     const onRemoveItem = (id) => {
-        dispatch(removeCartItem(id))
+        if (window.confirm('Вы действительно хотите очистить корзину?')) {
+            dispatch(removeCartItem(id))
+        }
     }
 
     const onPlusItem = (id) => {
@@ -42,7 +44,8 @@ const Cart = () => {
                 ? <div className="cart">
                     <div className="cart__top">
                         <h2 className="content__title">
-                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M6.33333 16.3333C7.06971 16.3333 7.66667 15.7364 7.66667 15C7.66667 14.2636 7.06971 13.6667 6.33333 13.6667C5.59695 13.6667 5 14.2636 5 15C5 15.7364 5.59695 16.3333 6.33333 16.3333Z"
                                     stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
@@ -56,7 +59,8 @@ const Cart = () => {
                             Корзина
                         </h2>
                         <div className="cart__clear">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M2.5 5H4.16667H17.5" stroke="#B6B6B6" strokeWidth="1.2" strokeLinecap="round"
                                       strokeLinejoin="round"/>
                                 <path
