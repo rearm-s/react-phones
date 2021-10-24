@@ -44,6 +44,12 @@ body {
       flex-wrap: wrap;
     }
   }
+  @media (max-width: 754px) {
+    &__items {
+     justify-content: center;
+    }
+  }
+
 }
 
 .container {
