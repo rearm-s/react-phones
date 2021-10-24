@@ -15,6 +15,7 @@ body {
   margin: 50px auto;
   border-radius: 10px;
   max-width: 1400px;
+  min-width: 446px;
 }
 
 .content {
@@ -31,10 +32,17 @@ body {
 
   }
 
+
   &__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  @media (max-width: 894px) {
+    &__top {
+      flex-wrap: wrap;
+    }
   }
 }
 
@@ -45,6 +53,7 @@ body {
   &--cart {
     max-width: 820px;
     margin: 20px auto;
+
     .content__title {
       margin: 0;
     }
@@ -69,6 +78,7 @@ body {
       width: 30px;
       height: 30px;
       margin-right: 10px;
+
       path {
         stroke: $black;
         stroke-width: 1.9;
@@ -101,6 +111,7 @@ body {
           stroke: darken($color: #b6b6b6, $amount: 50);
         }
       }
+
       span {
         color: darken($color: #b6b6b6, $amount: 50);
       }
@@ -161,6 +172,7 @@ body {
 
       b {
         font-size: 22px;
+        margin: 0 5px;
       }
     }
 
@@ -201,6 +213,7 @@ body {
           height: 11.5px;
           position: relative;
         }
+
         &:hover,
         &:active {
           border-color: darken($color: $gray-line, $amount: 80);
@@ -258,6 +271,7 @@ body {
 
         svg {
           margin-right: 12px;
+
           path {
             fill: transparent;
             stroke-width: 2;
@@ -291,7 +305,7 @@ body {
       color: #777777;
     }
 
-    icon {
+    i {
       position: relative;
       top: 2px;
     }
@@ -308,6 +322,38 @@ body {
       margin: 0 auto;
       font-weight: 600;
       font-size: 18px;
+    }
+  }
+
+  @media (max-width: 812px) {
+    .cart__item-img img {
+       width: 40px;
+       height: 40px;
+     }
+    &--empty{
+      width: 400px;
+      text-align: center;
+      img {
+        width: 200px;
+      }
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+    }
+    p {
+      font-size: 16px;
+      color: #8d8d8d;
+    }
+    span {
+      font-size: 16px;
+    }
+    b {
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 0.01em;
     }
   }
 }

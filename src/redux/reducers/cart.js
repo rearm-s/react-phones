@@ -1,7 +1,7 @@
 let initiateState = {
     items: {},
     totalCount: 0,
-    totalPrice: 0
+    totalPrice: 0,
 }
 
 const phones = (state = initiateState, action) => {

@@ -24,9 +24,10 @@ const Home = () => {
 
     const cartItems = useSelector(({cart}) => cart.items);
 
+
     useEffect(() => {
         dispatch(fetchPhones(sortBy, category))
-    }, [category, sortBy])
+    }, [category, sortBy, ])
 
 
     const onSelectCategory = useCallback((index) => {
@@ -42,7 +43,6 @@ const Home = () => {
     const onAddPhone = phoneObj => {
         dispatch(addPhonesToCart(phoneObj))
     }
-
 
     return (
         <div className="container">

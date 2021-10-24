@@ -7,6 +7,7 @@ const Header = () => {
 
     const {totalCount, totalPrice} = useSelector(({cart}) => cart)
 
+
     return (
         <div className="header">
             <div className="container">

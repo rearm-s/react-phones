@@ -7,6 +7,8 @@ import emptyCart from './../assets/img/empty-cart.png'
 
 const Cart = () => {
 
+
+
     const dispatch = useDispatch();
     const {totalPrice, totalCount, items} = useSelector(({cart}) => cart)
 
@@ -37,6 +39,7 @@ const Cart = () => {
     const onConfirmCart = () => {
         console.log(items)
     }
+
 
     return (
         <div className="container container--cart">
@@ -89,6 +92,7 @@ const Cart = () => {
                                 onRemoveItem={onRemoveItem}
                                 onPlusItem={onPlusItem}
                                 onMinusItem={onMinusItem}
+
                                 key={`${obj}_${index}`}
                             />
                         )}
