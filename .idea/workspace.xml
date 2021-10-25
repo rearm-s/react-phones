@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/react-pizza-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -82,7 +82,8 @@
       <workItem from="1634981120874" duration="141000" />
       <workItem from="1634982058993" duration="140000" />
       <workItem from="1635030232397" duration="1000" />
-      <workItem from="1635065140792" duration="25341000" />
+      <workItem from="1635065140792" duration="25516000" />
+      <workItem from="1635156750202" duration="1794000" />
     </task>
     <servers />
   </component>
