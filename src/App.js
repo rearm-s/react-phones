@@ -6,8 +6,6 @@ import Cart from "./pages/Cart";
 const Home = React.lazy(() => import('./pages/Home'))
 
 function App() {
-    const localStorageRef = JSON.parse(localStorage.getItem("react-phones-cart"))
-    console.log(localStorageRef)
     return (
         <div className="wrapper">
             <Header/>
